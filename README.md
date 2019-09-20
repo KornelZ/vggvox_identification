@@ -7,11 +7,11 @@ Based on on Nagrani et al 2017, [VoxCeleb: a large-scale speaker identification 
 2. Download dataset file (see Downloads).
 3. To run training code:
 ```
-python.py vggvox_train.py metadata.csv voxceleb/wav/ checkpoint.hdf5
+python vggvox_train.py metadata.csv voxceleb/wav/ checkpoint.hdf5
 ```
 4. To run testing code:
 ```
-python.py vggvox_test.py metadata.csv voxceleb/wav/ with-augmentation.hdf5
+python vggvox_test.py metadata.csv voxceleb/wav/ with-augmentation.hdf5
 ```
 
 ### Downloads
